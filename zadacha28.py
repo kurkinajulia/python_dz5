@@ -6,11 +6,11 @@ a = int(input('Введите 1-ое неотрицательное число: 
 b = int(input('Введите 2-ое неотрицательное число: '))
 
 
-def recursive_summ(a, b):
+def recursive_sum(a, b):
     if a == 0:
         return b
     else:
-        return recursive_summ(a - 1, b + 1)
+        return recursive_sum(a - 1, b + 1)
 
 
-print(recursive_summ(a, b))
+print(recursive_sum(a, b))
